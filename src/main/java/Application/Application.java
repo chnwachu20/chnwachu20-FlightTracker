@@ -46,7 +46,7 @@ public class Application {
                     "('tampa', 'reston')," +
                     "('reston', 'morgantown')," +
                     "('morgantown', 'dallas')," +
-                    "('tampa', 'dallas')," +
+                    "('tampa', 'dallas')," + 
                     "('dallas', 'tampa');");
             ps3.executeUpdate();
         }catch(SQLException e){
